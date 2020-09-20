@@ -1,14 +1,3 @@
-server:
-  port: 8808
-
 spring:
   profiles:
-    active: #dev,druid
-  datasource:
-    url: jdbc:mysql://47.105.184.154:3306/websocket?useUnicode=true&characterEncoding=utf8&useSSL=false&allowMultiQueries=true
-    username: im
-    password: HI!#w0r1d
-mybatis:
-  mapper-locations: classpath*:/mapper/*.xml
-  configuration:
-    map-underscore-to-camel-case: true
+    active: dev,druid

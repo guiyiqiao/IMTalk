@@ -3,8 +3,8 @@ spring:
     url: jdbc:mysql://47.105.184.154:3306/hole?useUnicode=true&characterEncoding=utf8&useSSL=false&allowMultiQueries=true
     username: hole
     password: Hole#password2020
-  #  type: com.alibaba.druid.pool.DruidDataSource
-   # driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
 
   #初始化时建立物理连接的个数
     druid:
